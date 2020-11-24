@@ -1,0 +1,78 @@
+.center {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center h2 {
+    font-weight: bold;
+    color: red;
+}
+.response {
+    flex-direction: column;
+}
+
+.Butt {
+    cursor: pointer;
+    margin: 5px 0 0 20px;
+    font-weight: normal;
+    border: 1px solid #3acbf7;
+    background: #3acbf7;
+    border-radius: 10%;
+    padding: 3px 5px;
+    width: 75px;
+    text-align: center;
+}
+
+.Butt:hover {
+    background: #6568f4;
+    border-color: #6568f4;
+    color: white;
+}
+
+.updateForm {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 15%;
+    left: 25%;
+    background: white;
+    box-shadow: 0 0 12px black;
+    flex-direction: column;
+}
+
+.none {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.pageTitle {
+    margin: 10px;
+}
+
+ol > li {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.updateCenterForm {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 40% 0;
+}
+.updateCenterForm > label {
+    margin: 6px 0;
+}
+
+.buttCenterForm {
+    margin-left: 40px;
+}
+
+.logOut {
+    padding: 8px;
+}
+

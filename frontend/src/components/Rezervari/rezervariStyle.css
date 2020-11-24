@@ -1,0 +1,101 @@
+.servicesAndRooms {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services {
+    margin-left: 200px;
+    margin-top: 50px;
+    flex: 1;
+}
+
+.rooms {
+    flex: 2;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.reservationBut {
+    flex: 1 100%;
+    position: relative;
+}
+
+.reservationBut > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-80%, 100%);
+    border: 1px solid #6568f4;
+    background: #6568f4;
+    border-radius: 10%;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.reservationForm {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 15%;
+    left: 25%;
+    background: white;
+    box-shadow: 0 0 12px black;
+    flex-direction: column;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.resContainer {
+    position: relative;
+}
+.closeX {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.usersReservations {
+    margin: 100px 0 0 200px;
+}
+
+.lblf {
+    display: block;
+    margin: 10px;
+}
+
+.butt {
+    cursor: pointer;
+    margin: 5px 0 0 20px;
+    font-weight: normal;
+    border: 1px solid #3acbf7;
+    background: #3acbf7;
+    border-radius: 10%;
+    padding: 3px 5px;
+    width: 75px;
+    text-align: center;
+}
+
+.butt:hover {
+    background: #6568f4;
+    border-color: #6568f4;
+    color: white;
+}
+
+.fixWidth {
+    display: inline-block;
+    width: 30%;
+}
+
+.roomType {
+    display: flex;
+    align-items: center;
+}
+.roomType > div {
+    margin-left: 5px;
+}

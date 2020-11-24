@@ -1,0 +1,79 @@
+
+.containerBoth {
+    display: flex;
+    width: 100%;
+}
+.containerRegister {
+    width: 20%;
+    margin-right: 50px;
+    margin-left: 450px;
+}
+
+.containerLogIn, .containerRegister {
+    background: whitesmoke;
+    height: 50%;
+    box-shadow: 0 0 20px 0 black;
+    margin-top: 55px;
+    border-radius: 8%;
+}
+
+.containerLogIn {
+    width: 20%;
+    margin-top: 70px;
+}
+
+.poss {
+    display: block;
+    margin: 5px 0;
+    outline: none;
+}
+
+.Email {
+    /*margin-top: 40px;*/
+}
+
+.Email, .password, .Name {
+    width: 75%;
+    height: 30px;
+    border-radius: 5%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.submit {
+    margin-left: 115px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
+    background: #6568f4;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.response2 {
+    position: absolute;
+    top: 11%;
+    right: 50%;
+    background: #dd1717;
+    color: black;
+    padding: 10px;
+    transform: translate(50%, 0px);
+}
+
+.active3 {
+    display: block;
+    background: forestgreen;
+}
+
+.active2 {
+    display: block;
+    background: #dd1717;
+}
+
+.none2 {
+    display: none;
+}
+
+.title {
+    margin: 25px 0 10px 40px ;
+}
